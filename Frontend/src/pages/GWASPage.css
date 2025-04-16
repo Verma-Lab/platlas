@@ -1,0 +1,68 @@
+/* GWASPage.css */
+.gwas-page {
+    background-color: #f8f9fa;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .custom-tabs .nav-link {
+    color: #007bff;
+  }
+  
+  .custom-tabs .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .dropdown-container {
+    margin-bottom: 20px;
+  }
+  
+  .loading-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+  }
+  
+  .blur-content {
+    filter: blur(5px);
+    pointer-events: none;
+  }
+  
+  .about-info {
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .card .p-4 {
+    padding: 1.5rem !important;
+  }
+  
+  .breadcrumb {
+    background: none;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  h5 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  

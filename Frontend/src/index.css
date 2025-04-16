@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif,'MontserratAlt1';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','MontserratAlt1-SemiBold',
+    monospace;
+}
+@font-face {
+  font-family: 'MontserratAlt1-SemiBold';
+  src: url('./fonts/MontserratAlt1-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'postnobillscolombo-SemiBold';
+  src: url('./fonts/postnobillscolombo-medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+

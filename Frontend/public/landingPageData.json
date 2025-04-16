@@ -1,0 +1,335 @@
+{
+    "navigation": {
+      "title": "PLATLAS",
+      "logo": "/images/logo.png",
+      "cta": {
+        "text": "Go to PLATLAS",
+        "link": "/platlas"
+      }
+    },
+    "hero": {
+      "title": "Advancing Genomic Research Through Data Innovation",
+      "description": "Leveraging cutting-edge technology and comprehensive datasets to unlock new insights in genetic research",
+      "cta": {
+        "text": "Explore PLATLAS",
+        "link": "/platlas"
+      },
+      "image": "/images/heroimage.png"
+    },
+    "researchFocusAreas": {
+      "title": "Research Focus Areas",
+      "description": "Exploring the frontiers of genetic research",
+      "focusAreas": [
+        {
+          "icon": "Microscope",
+          "title": "Genomic Analysis",
+          "description": "Advanced analysis of genetic variants across diverse populations"
+        },
+        {
+          "icon": "Globe",
+          "title": "Population Studies",
+          "description": "Understanding genetic variation across different ethnic groups"
+        },
+        {
+          "icon": "LineChart",
+          "title": "Data Visualization",
+          "description": "Innovative tools for visualizing complex genetic data"
+        }
+      ]
+    },
+    "keyFeatures": {
+      "title": "Platform Highlights",
+      "description": "Advanced features powering genomic discoveries",
+      "features": [
+        {
+          "icon": "Database",
+          "title": "Comprehensive Data Integration",
+          "description": "Seamlessly integrate and analyze diverse genomic datasets across multiple populations and phenotypes, enabling deeper insights into genetic variations.",
+          "points": [
+            "Multi-ethnic cohort analysis",
+            "Cross-phenotype associations"
+          ]
+        },
+        {
+          "icon": "LineChart",
+          "title": "Interactive Visualizations",
+          "description": "Explore genetic associations through intuitive and dynamic visualizations, making complex data interpretation accessible and insightful.",
+          "points": [
+            "Manhattan plots with zoom capabilities",
+            "LD structure visualization"
+          ]
+        }
+      ]
+    },
+    "researchImpact": {
+      "title": "Research Impact",
+      "description": "Advancing scientific understanding through data-driven insights",
+      "impacts": [
+        {
+          "icon": "Users",
+          "title": "50+ Research Groups",
+          "description": "Collaborating globally to advance genetic research"
+        },
+        {
+          "icon": "Globe",
+          "title": "Global Impact",
+          "description": "Supporting research across 30+ countries"
+        },
+        {
+          "icon": "Award",
+          "title": "Research Excellence",
+          "description": "Multiple breakthrough discoveries in genetics"
+        }
+      ]
+    },
+    "researchMethodology": {
+      "title": "Research Methodology",
+      "description": "Comprehensive approach to genomic analysis",
+      "methodologies": {
+        "statisticalMethods": [
+          {
+            "title": "GWAS Analysis",
+            "description": "Linear mixed models accounting for population structure and relatedness"
+          },
+          {
+            "title": "Meta-Analysis",
+            "description": "Fixed and random effects meta-analysis using METAL"
+          },
+          {
+            "title": "Fine-mapping",
+            "description": "Bayesian and frequentist approaches to identify causal variants"
+          }
+        ],
+        "studyDesign": [
+          {
+            "title": "Sample Selection",
+            "description": "Multi-ethnic cohorts with detailed phenotyping"
+          },
+          {
+            "title": "Quality Control",
+            "description": "Stringent QC protocols for genotype and phenotype data"
+          },
+          {
+            "title": "Replication",
+            "description": "Independent replication in multiple cohorts"
+          }
+        ]
+      }
+    },
+    "publications": [
+      {
+        "title": "Novel genetic variants associated with complex traits across diverse populations",
+        "journal": "Nature Genetics",
+        "year": 2024
+      },
+      {
+        "title": "Advanced visualization techniques for genetic association studies",
+        "journal": "Bioinformatics",
+        "year": 2023
+      }
+    ],
+    "coreReferences": [
+      {
+        "authors": "Smith et al.",
+        "year": 2024,
+        "title": "Large-scale genetic analysis reveals novel insights into complex traits",
+        "journal": "Nature Genetics",
+        "doi": "10.1038/ng.xxxx"
+      },
+      {
+        "authors": "Johnson et al.",
+        "year": 2023,
+        "title": "Meta-analysis approaches in genomic studies",
+        "journal": "Genome Research",
+        "doi": "10.1101/gr.xxxx"
+      },
+      {
+        "authors": "Brown et al.",
+        "year": 2023,
+        "title": "Novel methods in population genetics",
+        "journal": "PLOS Genetics",
+        "doi": "10.1371/journal.pgen.xxxx"
+      },
+      {
+        "authors": "Davis et al.",
+        "year": 2023,
+        "title": "Advances in genetic association studies",
+        "journal": "Nature Methods",
+        "doi": "10.1038/nmeth.xxxx"
+      },
+      {
+        "authors": "Wilson et al.",
+        "year": 2023,
+        "title": "Statistical approaches in genomics",
+        "journal": "Bioinformatics",
+        "doi": "10.1093/bioinformatics/xxxx"
+      }
+    ],
+    "additionalResearchComponents": [
+      {
+        "category": "Software & Tools",
+        "icon": "Database",
+        "items": [
+          "PLINK v2.0",
+          "METAL",
+          "GCTA-COJO",
+          "Custom R scripts"
+        ]
+      },
+      {
+        "category": "Data Processing",
+        "icon": "Network",
+        "items": [
+          "Imputation servers",
+          "QC pipelines",
+          "Harmonization tools",
+          "Analysis workflows"
+        ]
+      },
+      {
+        "category": "Validation Methods",
+        "icon": "Award",
+        "items": [
+          "Cross-population validation",
+          "Functional validation",
+          "Expression analysis",
+          "Clinical correlation"
+        ]
+      }
+    ],
+    "additionalResources": {
+      "dataResources": [
+        "1000 Genomes Project reference panels",
+        "UK Biobank resources",
+        "GTEx expression data"
+      ],
+      "softwareResources": [
+        "Analysis pipelines on GitHub",
+        "Documentation and tutorials",
+        "Code repositories and examples"
+      ]
+    },
+    "teamMembers": [
+      {
+        "name": "Dr. Sarah Chen",
+        "role": "Principal Investigator",
+        "description": "Leading expert in statistical genetics with over 15 years of experience in GWAS analysis.",
+        "imageUrl": "/images/team/sarah_chen.jpg",
+        "specialization": "Statistical Genetics",
+        "socialLinks": {
+          "email": "sarah.chen@example.com",
+          "github": "https://github.com/sarahchen",
+          "linkedin": "https://linkedin.com/in/sarahchen"
+        }
+      },
+      {
+        "name": "Dr. Michael Rodriguez",
+        "role": "Senior Researcher",
+        "description": "Specializes in developing computational tools for genomic data analysis.",
+        "imageUrl": "/images/team/michael_rodriguez.jpg",
+        "specialization": "Bioinformatics",
+        "socialLinks": {
+          "email": "michael.rodriguez@example.com",
+          "github": "https://github.com/michaelrodriguez",
+          "linkedin": "https://linkedin.com/in/michaelrodriguez"
+        }
+      },
+      {
+        "name": "Dr. Emily Taylor",
+        "role": "Research Scientist",
+        "description": "Expert in population genetics and statistical methodology.",
+        "imageUrl": "/images/team/emily_taylor.jpg",
+        "specialization": "Population Genetics",
+        "socialLinks": {
+          "email": "emily.taylor@example.com",
+          "github": "https://github.com/emilytaylor",
+          "linkedin": "https://linkedin.com/in/emilytaylor"
+        }
+      },
+      {
+        "name": "Dr. James Wilson",
+        "role": "Research Scientist",
+        "description": "Focuses on algorithm development for genomic analysis.",
+        "imageUrl": "/images/team/james_wilson.jpg",
+        "specialization": "Computational Biology",
+        "socialLinks": {
+          "email": "james.wilson@example.com",
+          "github": "https://github.com/jameswilson",
+          "linkedin": "https://linkedin.com/in/jameswilson"
+        }
+      },
+      {
+        "name": "Dr. Lisa Wang",
+        "role": "Research Scientist",
+        "description": "Expert in multi-ethnic genetic studies and diversity research.",
+        "imageUrl": "/images/team/lisa_wang.jpg",
+        "specialization": "Human Genetics",
+        "socialLinks": {
+          "email": "lisa.wang@example.com",
+          "github": "https://github.com/lisawang",
+          "linkedin": "https://linkedin.com/in/lisawang"
+        }
+      },
+      {
+        "name": "Dr. Robert Thompson",
+        "role": "Biostatistician",
+        "description": "Expert in statistical methods for large-scale genetic studies.",
+        "imageUrl": "/images/team/robert_thompson.jpg",
+        "specialization": "Biostatistics",
+        "socialLinks": {
+          "email": "robert.thompson@example.com",
+          "github": "https://github.com/robertthompson",
+          "linkedin": "https://linkedin.com/in/robertthompson"
+        }
+      },
+      {
+        "name": "Dr. Anna Kowalski",
+        "role": "Research Scientist",
+        "description": "Specializes in functional genomics and biomarker discovery.",
+        "imageUrl": "/images/team/anna_kowalski.jpg",
+        "specialization": "Functional Genomics",
+        "socialLinks": {
+          "email": "anna.kowalski@example.com",
+          "github": "https://github.com/annakowalski",
+          "linkedin": "https://linkedin.com/in/annakowalski"
+        }
+      },
+      {
+        "name": "Dr. John Smith",
+        "role": "Research Coordinator",
+        "description": "Manages research projects and international collaborations.",
+        "imageUrl": "/images/team/john_smith.jpg",
+        "specialization": "Research Coordination",
+        "socialLinks": {
+          "email": "john.smith@example.com",
+          "github": "https://github.com/johnsmith",
+          "linkedin": "https://linkedin.com/in/johnsmith"
+        }
+      },
+      {
+        "name": "Dr. Maria Garcia",
+        "role": "Software Engineer",
+        "description": "Leads the development of visualization tools and web interfaces.",
+        "imageUrl": "/images/team/maria_garcia.jpg",
+        "specialization": "Software Engineering",
+        "socialLinks": {
+          "email": "maria.garcia@example.com",
+          "github": "https://github.com/mariagarcia",
+          "linkedin": "https://linkedin.com/in/mariagarcia"
+        }
+      },
+      {
+        "name": "Dr. David Kim",
+        "role": "Data Scientist",
+        "description": "Specialized in machine learning applications in genomics.",
+        "imageUrl": "/images/team/david_kim.jpg",
+        "specialization": "Data Science",
+        "socialLinks": {
+          "email": "david.kim@example.com",
+          "github": "https://github.com/davidkim",
+          "linkedin": "https://linkedin.com/in/davidkim"
+        }
+      }
+    ]
+  }
+  

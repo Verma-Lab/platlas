@@ -1,0 +1,10 @@
+/* TopResults.css */
+
+.scroll-button {
+    transition: background 0.3s;
+  }
+  
+  .scroll-button:hover {
+    background: rgba(255, 255, 255, 1);
+  }
+  

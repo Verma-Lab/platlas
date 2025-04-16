@@ -1,0 +1,43 @@
+{
+  "name": "gwas-data-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Data Server API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "gwas",
+    "api",
+    "genomics",
+    "browser"
+  ],
+  "author": "hritvik gupta",
+  "license": "ISC",
+  "dependencies": {
+    "@gmod/tabix": "^2.0.4",
+    "@google-cloud/firestore": "^7.11.0",
+    "@google-cloud/storage": "^7.15.1",
+    "@google-cloud/vertexai": "^1.9.3",
+    "@google/generative-ai": "^0.21.0",
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0",
+    "generic-filehandle": "^3.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0",
+    "node-gzip": "^1.1.2",
+    "openai": "^4.76.1",
+    "papaparse": "^5.5.2",
+    "pdf-parse": "^1.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.0.5",
+    "winston": "^3.17.0"
+  }
+}

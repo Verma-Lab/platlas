@@ -1,0 +1,102 @@
+{
+    "sections": [
+      {
+        "id": "getting-started",
+        "title": "Getting Started",
+        "icon": "BookOpen",
+        "content": [
+          {
+            "title": "Introduction",
+            "description": "PLATLAS is a comprehensive platform for analyzing and visualizing genome-wide association studies across multiple ancestries.",
+            "subsections": [
+              "Platform Overview",
+              "Key Features",
+              "System Requirements"
+            ]
+          },
+          {
+            "title": "Quick Start Guide",
+            "description": "Learn how to get started with PLATLAS and perform your first analysis.",
+            "subsections": [
+              "Basic Navigation",
+              "Data Upload",
+              "Visualization Tools"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-formats",
+        "title": "Data Formats",
+        "icon": "Database",
+        "content": [
+          {
+            "title": "Input Data Requirements",
+            "description": "Specifications for GWAS summary statistics and other input data formats.",
+            "subsections": [
+              "Summary Statistics Format",
+              "Phenotype Data Format",
+              "Cohort Information"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "api-reference",
+        "title": "API Reference",
+        "icon": "Code",
+        "content": [
+          {
+            "title": "REST API Documentation",
+            "description": "Complete reference for the PLATLAS REST API endpoints.",
+            "subsections": [
+              "Authentication",
+              "Endpoints",
+              "Rate Limits"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "advanced-topics",
+        "title": "Advanced Topics",
+        "icon": "Search",
+        "content": [
+          {
+            "title": "Custom Analyses",
+            "description": "Guidelines on performing custom analyses using PLATLAS.",
+            "subsections": [
+              "Custom Script Integration",
+              "Advanced Visualization Techniques"
+            ]
+          },
+          {
+            "title": "Best Practices",
+            "description": "Recommended best practices for using PLATLAS effectively.",
+            "subsections": [
+              "Data Management",
+              "Reproducibility",
+              "Collaborative Workflows"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "FAQ",
+        "icon": "ExternalLink",
+        "content": [
+          {
+            "title": "Frequently Asked Questions",
+            "description": "Answers to common questions about using PLATLAS.",
+            "subsections": [
+              "How to reset my password?",
+              "How to contact support?",
+              "Troubleshooting common issues"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
