@@ -1,10 +1,28 @@
 # PLATLAS: PLeiotropic ATLAS
 
 <div align="center">
-  <img src="public/images/platlas-logo.png" alt="PLATLAS Logo" width="400"/>
+  <img src="/public/images/platypushomepage.png" alt="PLATLAS Logo" width="400"/>
   <br/>
   <h3>A Comprehensive Multi-Ancestry Genome-Wide Association Browser</h3>
 </div>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT">
+  </a>
+  <a href="#data-format">
+    <img src="https://img.shields.io/badge/format-JSON-brightgreen.svg" alt="Format: JSON">
+  </a>
+  <a href="#development-status">
+    <img src="https://img.shields.io/badge/status-in%20development-yellow.svg" alt="Status: In Development">
+  </a>
+  <a href="#version">
+    <img src="https://img.shields.io/badge/version-1.0.0--beta-orange.svg" alt="Version: 1.0.0-beta">
+  </a>
+  <a href="https://github.com/yourusername/platlas/issues">
+    <img src="https://img.shields.io/github/issues/yourusername/platlas.svg" alt="GitHub Issues">
+  </a>
+</p>
 
 ## Table of Contents
 
@@ -646,7 +664,8 @@ PLATLAS is a collaborative project developed by researchers and developers from:
 
 ## Licensing
 
-This project is licensed under the [LICENSE NAME] - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE file for details.
+- The MIT License is a permissive free software license that puts only very limited restriction on reuse and has high compatibility with other licenses. It permits users to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software.
 
 ## Acknowledgments
 
@@ -656,7 +675,4 @@ This project is licensed under the [LICENSE NAME] - see the LICENSE file for det
 
 ## Contact
 
-For questions, issues, or collaboration inquiries, please contact:
-- **Email**: [contact email]
-- **GitHub Issues**: [repository issues page]
-- **Website**: [project website]
+For questions, issues, or collaboration inquiries, please open a new issue.
