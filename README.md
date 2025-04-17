@@ -1,7 +1,7 @@
 # PLATLAS: PLeiotropic ATLAS
 
 <div align="center">
-  <img src="/public/images/platypushomepage.png" alt="PLATLAS Logo" width="400"/>
+  <img src="/Frontend/public/images/platypushomepage.png" alt="PLATLAS Logo" width="400"/>
   <br/>
   <h3>A Comprehensive Multi-Ancestry Genome-Wide Association Browser</h3>
 </div>
