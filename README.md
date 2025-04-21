@@ -675,4 +675,6 @@ PLATLAS is a collaborative project developed by researchers and developers from:
 
 ## Contact
 
-For questions, issues, or collaboration inquiries, please open a new issue or email: anurag.verma@pennmedicine.upenn.edu and hritvik.gupta@pennmedicine.upenn.edu
+For questions, issues, or collaboration inquiries, please open a new issue or email: 
+- Anurag Verma: anurag.verma@pennmedicine.upenn.edu
+- Hritvik Gupta: hritvik.gupta@pennmedicine.upenn.edu
