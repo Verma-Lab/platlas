@@ -202,22 +202,6 @@ server/
 └── package.json           # Dependencies and scripts
 ```
 
-#### API Routes
-
-The `routes/index.js` file defines the following endpoints:
-
-- `/getRelatedPhenotypes`: Get phenotypes related to a specific phenotype
-- `/getGWASMetadata`: Retrieve metadata for GWAS studies
-- `/queryGWASData`: Get GWAS data for a specific phenotype and cohort
-- `/getTopResults`: Retrieve top significant variants
-- `/getLeadVariants`: Get lead variants for a phenotype
-- `/phewas`: Get phenome-wide associations for a specific variant
-- `/findfiles`: Check availability of data files for a phenotype
-- `/getPhenotypeStats/:phenoId`: Get statistics for a specific phenotype
-- `/getPhenotypeMapping`: Get phenotype category mappings
-- `/getManhattanPlot`: Get pre-rendered Manhattan plot image
-- `/getQQPlot`: Get pre-rendered QQ plot image
-- `/getSNPAnnotation`: Get annotation information for a specific SNP
 
 ### Data Structure
 
@@ -239,57 +223,9 @@ PLATLAS uses a file-based data storage system optimized for large-scale genomic 
 
 ## Installation
 
-### Prerequisites
-
-- Node.js (v14.x or higher)
-- npm or yarn package manager
-- Git
-- Access to the genomic data files (not included in the repository)
-
-### Setting Up the Development Environment
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/platlas.git
-   cd platlas
-   ```
-
-2. **Install backend dependencies**:
-   ```bash
-   cd server
-   npm install
-   ```
-
-3. **Install frontend dependencies**:
-   ```bash
-   cd ../client
-   npm install
-   ```
-
-4. **Set up data directories**:
-   - Create a directory for GWAS data files
-   - Set up appropriate permissions for file access
-
 ### Configuration
 
-1. **Backend Configuration**:
-   Create a `.env` file in the server directory with the following settings:
-   ```
-   PORT=5001
-   NODE_ENV=development
-   GWAS_FILES_PATH=/path/to/your/gwas/files
-   DEBUG=app:*
-   LOG_LEVEL=info
-   ```
-
-2. **Frontend Configuration**:
-   Create a `.env` file in the client directory:
-   ```
-   REACT_APP_API_URL=http://localhost:5001/api
-   REACT_APP_VERSION=1.0.0
-   ```
-
-3. **Data Files Setup**:
+**Data Files Setup**:
    The application expects data files to be organized in a specific structure:
    ```
    /path/to/your/gwas/files/
@@ -299,23 +235,6 @@ PLATLAS uses a file-based data storage system optimized for large-scale genomic 
    ```
 
 ## Usage
-
-### Running the Application
-
-1. **Start the backend server**:
-   ```bash
-   cd server
-   npm run dev
-   ```
-
-2. **Start the frontend development server**:
-   ```bash
-   cd client
-   npm start
-   ```
-
-3. **Access the application**:
-   Open your browser and navigate to `http://localhost:3000`
 
 ### Home Page
 
@@ -572,46 +491,6 @@ Props:
 - `selectedCohort` (string): Current cohort
 - `selectedStudy` (string): Current study type
 
-## Development Guidelines
-
-### Code Style
-
-- **JavaScript**: Follow Airbnb JavaScript Style Guide
-- **React**: Use functional components with hooks
-- **CSS**: Use Tailwind utility classes with consistent naming
-- **Commits**: Use conventional commit messages
-
-### Performance Considerations
-
-1. **Data Handling**:
-   - Implement client-side caching for repeated queries
-   - Use pagination for large result sets
-   - Apply dynamic filtering on the server side
-
-2. **Rendering Optimization**:
-   - Use React.memo for expensive components
-   - Implement virtualized lists for large data tables
-   - Optimize chart rendering with memoization
-
-3. **Asset Optimization**:
-   - Use compressed image formats
-   - Implement lazy loading for non-critical assets
-   - Minimize bundle size with code splitting
-
-### Testing
-
-1. **Unit Tests**:
-   - Test individual components and utility functions
-   - Use Jest for test framework
-   - Use React Testing Library for component tests
-
-2. **Integration Tests**:
-   - Test component interactions
-   - Verify API integration
-
-3. **End-to-End Tests**:
-   - Test complete user workflows
-   - Use Cypress for E2E testing
 
 ## Contributing
 
