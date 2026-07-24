@@ -19,8 +19,8 @@
   <a href="#version">
     <img src="https://img.shields.io/badge/version-1.0.0--beta-orange.svg" alt="Version: 1.0.0-beta">
   </a>
-  <a href="https://github.com/yourusername/platlas/issues">
-    <img src="https://img.shields.io/github/issues/yourusername/platlas.svg" alt="GitHub Issues">
+  <a href="https://github.com/Verma-Lab/platlas/issues">
+    <img src="https://img.shields.io/github/issues/Verma-Lab/platlas.svg" alt="GitHub Issues">
   </a>
 </p>
 
